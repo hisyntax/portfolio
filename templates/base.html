@@ -1,0 +1,143 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name=" viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="{% static 'css/style.css' %}">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Philosopher&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Niconne&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <style>
+    .archive{
+        width: 100%;   
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .archive .archive-title{
+        text-align: center;
+        margin-bottom: 20px;
+        text-decoration: underline;
+    }
+    .archive .archive-container{
+        position: relative;
+        background-color: black;
+        width: 20%;
+        height: 300px;
+        margin: 5px;
+        background-repeat: no-repeat;
+        /** background-attachment: fixed;**/
+         background-size: 100% 100%;
+         border-top-left-radius: 5px;
+         border-top-right-radius: 5px;
+         display: inline-block;
+    }
+    .archive .archive-container .tag{
+        background-color: rgb(214, 212, 212);
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+        padding: 3px 0px;
+        text-align: center;
+    }
+    </style>
+    <body>
+      <div class="container-fluid">
+        <div class="row">
+          <div id="img" class="col-3 bg-light pl-0 pr-0">
+          <a href="/"><img src="{{ content.logo.thumbnail.url }}" alt="logo"></a>
+          </div>
+          <div id="title" class="col bg-light">The heart of a Programmer</div>
+           <!---------------large screen btn---------------------->
+           <div id="btn" class="bg-light">
+            <div id="navbar" class="col-1.5 ">
+              <nav id="navbar" class="navbar navbar-dark">
+                <button class="navbar-toggler bg-danger " type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              </nav>
+            </div>
+            </div>
+            <!------------------small screen btn------------------------------>
+            <div id="btn2" class="bg-light">
+            <div id="navbar" class="col-1.5 ">
+              <nav id="navbar" class="navbar navbar-dark">
+                <button class="navbar-toggler bg-danger " type="button" data-toggle="collapse" data-target="#twocollapsibleNavbar">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              </nav>
+            </div>
+          </div>
+          </div>
+           <!--------------larger screen size---------------------->
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="nav  nav-justified bg-dark pt-2 pb-1">
+          <li class="nav-item dropdown">
+            <a id="a" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Archive</a>
+            <div class="dropdown-menu">
+              <a id="a" class="dropdown-item" href="/archive-website">Website</a>
+              <a id="a" class="dropdown-item" href="/archive-logo">Design</a>
+
+              <a id="a" class="dropdown-item active " href="/admin" target="_blank">Admin-pannel</a>
+            </div>
+          </li>
+          <li class="nav-item ">
+            <a id="a" class="nav-link disabled" href="#">Category</a>
+          </li>
+          <li class="nav-item">
+            <a id="a" class="nav-link "  href="/"><i class="fa fa-home"></i></a>
+          </li>
+          <li class="nav-item">
+            <a id="a" class="nav-link "  href="/live-chat">Live-chat</a>
+          </li>
+          <li class="nav-item">
+            <a id="a" class="nav-link "  href="/follow-us">Follow-us</a>
+          </li>
+        </ul>
+      </div>
+      
+      <!--------------small screen views of nav---------------------->
+      <div class="collapse navbar-collapse" id="twocollapsibleNavbar">
+        <ul id="small-screen" class="nav  nav-justified bg-dark pt-2 pb-1">
+          <li class="nav-item dropdown">
+            <a id="a" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Archive</a>
+            <div class="dropdown-menu">
+              <a id="a" class="dropdown-item" href="/archive-website">Website</a>
+              <a id="a" class="dropdown-item" href="/archive-logo">Design</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a id="a" class="nav-link "  href="/"><i class="fa fa-home"></i></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a id="a" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Dropdown</a>
+            <div class="dropdown-menu">
+              <a id="a" class="dropdown-item" href="/live-chat">Live-chat</a>
+              <a id="a" class="dropdown-item" href="/follow-us">Follow-us</a>
+
+              <a id="a" class="dropdown-item active" href="/admin" target="_blank">Admin-pannel</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="divider bg-dark"></div>
+  </div>
+
+  {% block content %}
+
+  {% endblock content %}
+
+  <div class="footer">
+    <footer id="body-tag">Copyright &copy; 2020. All-rights Reserved.</footer>
+  </div>
+</div>
+</body>
+</html>
