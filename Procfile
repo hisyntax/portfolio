@@ -1,1 +1,1 @@
-web: waitress-serve portfolio.wsgi:application
+web: waitress-serve --port=5000 portfolio.wsgi:application
