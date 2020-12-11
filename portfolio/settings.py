@@ -14,7 +14,7 @@ SECRET_KEY = '_m5q@3p++s*t=vb%1_8_5o)ft_7w9uni60o+1jd^meb$cdx791'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['purpledevhub.herokuapp','localhost']
+ALLOWED_HOSTS = ['purpledevhub.herokuapp.com','localhost']
 
 
 # Application definition
