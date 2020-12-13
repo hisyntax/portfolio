@@ -1,1 +1,1 @@
-web: waitress-serve portfolio.wsgi:application
+web: gunicorn portfolio.wsgi 
