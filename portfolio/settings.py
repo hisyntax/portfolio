@@ -14,8 +14,8 @@ SECRET_KEY = '_m5q@3p++s*t=vb%1_8_5o)ft_7w9uni60o+1jd^meb$cdx791'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['purpledevhub.herokuapp.com','127.0.0.1']
-
+ALLOWED_HOSTS = []
+#'purpledevhub.herokuapp.com','127.0.0.1'
 
 # Application definition
 
@@ -36,7 +36,7 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
-    'whitenoise.middleware.WhiteNoiseMiddleware',
+    #'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -45,7 +45,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+#STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 ROOT_URLCONF = 'portfolio.urls'
 
