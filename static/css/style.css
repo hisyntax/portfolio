@@ -749,13 +749,13 @@ nav#nav-dropdown .col a#link{
         font-family: 'Philosopher', sans-serif;
     }
     a#a{
-        font-size: 12px;
+        font-size: 15px;
     }
     div#navbar nav#navbar{
         float: none;
     }
     nav#navbar button{
-        font-size: 7px;
+        font-size: 9px;
     }
     div#btn{
         display: none;
@@ -950,11 +950,11 @@ nav#nav-dropdown .col a#link{
     }
     #title-tag{
         font-family: 'Niconne', cursive;
-        font-size: 20px;
+        font-size: 22px;
     }
     #body-tag{
         font-family: 'Niconne', cursive;
-        font-size: 15px;
+        font-size: 17px;
     }
     /******************
         our team
@@ -1114,7 +1114,7 @@ nav#nav-dropdown .col a#link{
         float: none;
     }
     nav#navbar button{
-        font-size: 7px;
+        font-size: 8px;
     }
     div#btn{
         display: none;

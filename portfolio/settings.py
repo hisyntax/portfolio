@@ -14,8 +14,8 @@ SECRET_KEY = '_m5q@3p++s*t=vb%1_8_5o)ft_7w9uni60o+1jd^meb$cdx791'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['purpledevhub.herokuapp.com', '127.0.0.1']
-#'purpledevhub.herokuapp.com','127.0.0.1'
+ALLOWED_HOSTS = []
+#'purpledevhub.herokuapp.com', '127.0.0.1'
 
 # Application definition
 
@@ -73,8 +73,12 @@ WSGI_APPLICATION = 'portfolio.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'dd7iu5ct0ll0jt',
+        'HOST': 'ec2-34-194-198-238.compute-1.amazonaws.com',
+        'PORT': 5432,
+        'USER': 'hfabwgpthxxhsy',
+        'PASSWORD': '6ec177f6df690cf0583278e008b7877b76c90984fb4dcbc65c2f0c904287765a'
 
     }
 }
