@@ -1,0 +1,1456 @@
+.row>#img img{
+    width: 100%;
+    height: 70px;
+    background-repeat: no-repeat;
+   /** background-attachment: fixed;**/
+    background-size: 100% 100%;
+}
+.row #title{
+    text-align: center;
+    padding-top: 5px;
+    font-size: 35px;
+    font-family: 'Philosopher', sans-serif;
+}
+.row #icon{
+    font-size: 25px;
+}
+a#a{
+    font-size: 13px;
+}
+div#navbar nav#navbar{
+    float:right;
+}
+nav#navbar button{
+    font-size: 15px;
+}
+div#btn{
+    display: ;
+}
+div#btn2{
+    display: none;
+}
+
+.divider{
+    width: 100%;
+    height: 15px;
+}
+nav#nav-dropdown .col a#link{
+    text-decoration: none;
+}
+.content-body .header-img{
+    width: 100%;
+    height: 400px;
+    color: rgb(255, 255, 255);
+    font-size: 55px;
+    padding-left: 50px;
+    padding-top: 70px;
+    margin-bottom: 30px;
+    background-repeat: no-repeat;
+   /** background-attachment: fixed;**/
+    background-size: 100% 100%;
+    font-family: 'Dancing Script', cursive;
+    background-color: black;
+}
+.content-body>.msg-content{
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.content-body>.msg-content .msg-head{
+    position: static;
+}
+.content-body>.msg-content>.overall-msg .message{
+    background-color: rgb(212, 211, 211);
+    margin-bottom: 5px;
+    padding-top: 10px;
+}
+.content-body>.msg-content>.overall-msg .message .msg-detail{
+    background-color: white;
+    float: right;
+    width: 50%;
+}
+.content-body>.msg-content>.msg-head{
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    padding-left: 10px;
+    
+}
+.content-body>.msg-content>.overall-msg{
+    height: 1000px;
+    overflow-y: scroll;
+}
+.content-body>.msg-content>.overall-msg .message>.msg-body> img{
+    width: 50%;
+    height: 300px;
+}
+.content-body>.msg-content>.overall-msg .message::after{
+    clear: both;
+    content: '';
+    display: block;
+}
+
+.msg-detail #msg-title h3{
+    font-size: 20px;
+    text-align: center;
+    padding-left: 5px;
+    margin-bottom: 20px;
+}
+.msg-detail #msg-detail{
+    font-size: 18px;
+    text-align: center;
+    padding-left: 5px;
+}
+.msg-detail .admin-profile{
+    background-color: black;
+    width: 10%;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.msg-detail .admin-profile img{
+    width: 100%;
+    height: 50px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+   /** background-attachment: fixed;**/
+    background-size: 100% 100%;
+}
+.msg-detail .admin{
+    position: relative;
+}
+.msg-detail .admin .posted-by{
+    position: absolute;
+    bottom: 10px;
+    left: 70px;
+    font-size: 12px;
+}
+
+/**************************
+**************************/
+.content-body>.msg-content>.overall-msg .message2{
+    background-color: rgb(212, 211, 211);
+    margin-bottom: 5px;
+    padding-top: 10px;
+}
+.content-body>.msg-content>.overall-msg .message2 .msg-detail2{
+    background-color: white;
+    width: 50%;
+}
+.content-body>.msg-content>.overall-msg .message2>.msg-body2 img{
+    float: right;
+    width: 50%;
+    height: 300px;
+}
+.content-body>.msg-content>.overall-msg .message2::after{
+    clear: both;
+    content: '';
+    display: block;
+}
+.msg-detail2 #msg-title h3{
+    font-size: 20px;
+    text-align: center;
+    padding-left: 5px;
+    margin-bottom: 20px;
+}
+.msg-detail2 #msg-detail{
+    font-size: 18px;
+    text-align: center;
+    padding-left: 5px;
+}
+.msg-detail2 .admin-profile2{
+    background-color: black;
+    width: 10%;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.msg-detail2 .admin-profile2 img{
+    width: 100%;
+    height: 50px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+   /** background-attachment: fixed;**/
+    background-size: 100% 100%;
+}
+.msg-detail2 .admin2{
+    position: relative;
+}
+.msg-detail2 .admin2 .posted-by2{
+    position: absolute;
+    bottom: 10px;
+    left: 70px;
+    font-size: 12px;
+}
+
+/***********************
+        about us
+***********************/
+.about-us{
+    background-color: rgb(247, 247, 247);
+    margin-top: 20px;
+    padding: 10px;
+}
+.about-us .span1{
+  font-size: 20px;
+}
+.about-us .message{
+    font-size: 15px;
+    width: 60%;
+}
+.about-us .span2{
+    font-size: 20px;
+    text-align: center;
+
+}
+.about-us .vision{
+    font-size: 15px;
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+
+}
+.about-us .span3{
+    font-size: 20px;
+
+}
+.about-us .services{
+    font-size: 15px;
+    display: inline-block;
+}
+.about-us .services li{
+    margin-left: 3px;
+}
+#title-tag{
+    font-family: 'Niconne', cursive;
+    font-size: 25px;
+}
+#body-tag{
+    font-family: 'Niconne', cursive;
+    font-size: 20px;
+}
+/******************
+    our team
+*****************/
+.our-team{
+    margin-top: 20px;
+
+    width: 100%;
+    padding: 10px;
+}
+.our-team .title h3{
+    font-size: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.our-team .body-detail{
+    margin-top: 10px;
+}
+.our-team .body-detail .detail{
+    background-color: white;
+    width: 20%;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 0 auto;
+    
+}
+.our-team .body-detail .detail .profile-img img{
+    width: 100%;
+    height: 220px;
+}
+.our-team .body-detail .detail .name{
+    text-align: center;
+}
+.our-team .body-detail .detail .profession{
+    text-align: center;
+}
+
+.footer{
+    background-color: rgb(217, 215, 219);
+    margin-top: 20px;
+    padding: 10px;
+}
+.footer footer{
+    text-align: center;
+
+}
+
+/************************************
+    archive-website/logo
+************************************/
+
+.archive{
+    width: 100%;   
+    padding-top: 10px;
+    padding-bottom: 300px;
+}
+.archive .archive-title{
+    text-align: center;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+.archive .archive-container{
+    position: relative;
+    background-color: black;
+    width: 23%;
+    height: 300px;
+    margin: 5px;
+    background-repeat: no-repeat;
+    /** background-attachment: fixed;**/
+     background-size: 100% 100%;
+     border-top-left-radius: 5px;
+     border-top-right-radius: 5px;
+     display: inline-block;
+}
+.archive .archive-container .tag{
+    background-color: rgb(214, 212, 212);
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    padding: 3px 0px;
+    text-align: center;
+}
+
+/*************************************
+            live-chat
+*************************************/
+.live-chat .image img{
+    background-repeat: no-repeat;
+    /** background-attachment: fixed;**/
+     background-size: 100% 100%;
+     width: 100%;
+     height: 300px;
+}
+.live-chat .title h3{
+    text-align: center;
+    margin-top: 20px;
+}
+.live-chat .body{
+    text-align: center;
+    padding-bottom: 300px;
+}
+.live-chat .body #icon{
+    font-size: 25px;
+    color: green;
+    cursor: pointer;
+}
+
+/**************************************
+            follow-us
+**************************************/
+.live-chat .image img{
+    background-repeat: no-repeat;
+    /** background-attachment: fixed;**/
+     background-size: 100% 100%;
+     width: 100%;
+     height: 300px;
+}
+.follow-us .title{
+    margin-top: 20px;
+    text-align: center;
+}
+.follow-us .notice{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.follow-us .body{
+    margin-bottom: 300px;
+    
+}
+.follow-us .body .detail .facebook a i{
+    font-size: 100px;
+    cursor: pointer;
+
+}
+.follow-us .body .detail .instagram a i{
+    font-size: 100px;
+    cursor: pointer;
+
+}
+
+@media screen and (max-width:761px) and (min-width:500px){
+    .row>#img img{
+        width: 100%;
+        height: 60px;
+        background-repeat: no-repeat;
+       /** background-attachment: fixed;**/
+        background-size: 100% 100%;
+    }
+    .row #title{
+        text-align: center;
+        padding-top: 20px;
+        font-size: 20px;
+        font-family: 'Philosopher', sans-serif;
+    }
+    .row #icon{
+        font-size: 25px;
+    }
+    a#a{
+        font-size: 13px;
+    }
+    div#navbar nav#navbar{
+        float: none;
+    }
+    nav#navbar button{
+        font-size: 15px;
+    }
+    div#btn{
+        display: block;
+    }
+    div#btn2{
+        display: none;
+    }
+    .divider{
+        width: 100%;
+        height: 10px;
+    }
+    nav#nav-dropdown .col a#link{
+        text-decoration: none;
+    }
+    .content-body .header-img{
+        width: 100%;
+        height: 250px;
+        color: rgb(255, 255, 255);
+        font-size: 35px;
+        padding-left: 50px;
+        padding-top: 50px;
+        margin-bottom: 30px;
+        background-repeat: no-repeat;
+       /** background-attachment: fixed;**/
+        background-size: 100% 100%;
+        font-family: 'Dancing Script', cursive;
+        background-color: black;
+    }
+    .content-body>.msg-content{
+        width: 90%;
+        margin: 0 auto;
+        border: 1px solid black;
+        border-radius: 5px;
+    }
+    .content-body>.msg-content .msg-head{
+        position: static;
+    }
+    .content-body>.msg-content>.overall-msg .message{
+        background-color: rgb(212, 211, 211);
+        margin-bottom: 5px;
+        padding-top: 10px;
+    }
+    .content-body>.msg-content>.overall-msg .message .msg-detail{
+        background-color: white;
+        float: right;
+        width: 60%;
+    }
+    .content-body>.msg-content>.msg-head{
+        background-color: black;
+        color: white;
+        font-size: 25px;
+        padding-left: 10px;
+        
+    }
+    .content-body>.msg-content>.overall-msg{
+        height: 700px;
+        overflow-y: scroll;
+    }
+    .content-body>.msg-content>.overall-msg .message>.msg-body> img{
+        width: 40%;
+        height: 180px;
+    }
+    .content-body>.msg-content>.overall-msg .message::after{
+        clear: both;
+        content: '';
+        display: block;
+    }
+    
+    .msg-detail #msg-title h3{
+        font-size: 20px;
+        text-align: center;
+        padding-left: 5px;
+        margin-bottom: 0px;
+    }
+    .msg-detail #msg-detail{
+        text-align: center;
+        padding-left: 5px;
+    }
+    .msg-detail .admin-profile{
+        background-color: black;
+        width: 10%;
+        height: 40px;
+        border-radius: 50%;
+        margin-left: 5px;
+    }
+    .msg-detail .admin-profile img{
+        width: 100%;
+        height: 40px;
+        border-radius: 50%;
+        background-repeat: no-repeat;
+       /** background-attachment: fixed;**/
+        background-size: 100% 100%;
+    }
+    .msg-detail .admin{
+        position: relative;
+    }
+    .msg-detail .admin .posted-by{
+        position: absolute;
+        bottom: 0px;
+        left: 60px;
+    }
+    
+    /**************************
+    **************************/
+    .content-body>.msg-content>.overall-msg .message2{
+        background-color: rgb(212, 211, 211);
+        margin-bottom: 5px;
+        padding-top: 10px;
+    }
+    .content-body>.msg-content>.overall-msg .message2 .msg-detail2{
+        background-color: white;
+        width: 60%;
+    }
+    .content-body>.msg-content>.overall-msg .message2>.msg-body2 img{
+        float: right;
+        width: 40%;
+        height: 180px;
+    }
+    .content-body>.msg-content>.overall-msg .message2::after{
+        clear: both;
+        content: '';
+        display: block;
+    }
+    .msg-detail2 #msg-title h3{
+        text-align: center;
+        padding-left: 5px;
+        margin-bottom: 0px;
+    }
+    .msg-detail2 #msg-detail{
+        text-align: center;
+        padding-left: 5px;
+    }
+    .msg-detail2 .admin-profile2{
+        background-color: black;
+        width: 10%;
+        height: 40px;
+        border-radius: 50%;
+        margin-left: 5px;
+    }
+    .msg-detail2 .admin-profile2 img{
+        width: 100%;
+        height: 40px;
+        border-radius: 50%;
+        background-repeat: no-repeat;
+       /** background-attachment: fixed;**/
+        background-size: 100% 100%;
+    }
+    .msg-detail2 .admin2{
+        position: relative;
+    }
+    .msg-detail2 .admin2 .posted-by2{
+        position: absolute;
+        bottom: 0px;
+        left: 60px;
+        font-size: 12px;
+    }
+    
+    /***********************
+            about us
+    ***********************/
+    .about-us{
+        background-color: rgb(247, 247, 247);
+        margin-top: 20px;
+        padding: 10px;
+    }
+    .about-us .span1{
+      font-size: 20px;
+    }
+    .about-us .message{
+        font-size: 15px;
+        width: 60%;
+    }
+    .about-us .span2{
+        font-size: 20px;
+        text-align: center;
+    
+    }
+    .about-us .vision{
+        font-size: 15px;
+        text-align: center;
+        width: 60%;
+        margin: 0 auto;
+    
+    }
+    .about-us .span3{
+        font-size: 20px;
+    
+    }
+    .about-us .services{
+        font-size: 15px;
+        display: inline-block;
+    }
+    .about-us .services li{
+        margin-left: 3px;
+    }
+    #title-tag{
+        font-family: 'Niconne', cursive;
+        font-size: 25px;
+    }
+    #body-tag{
+        font-family: 'Niconne', cursive;
+        font-size: 20px;
+    }
+    /******************
+        our team
+    *****************/
+    .our-team{
+        margin-top: 10px;
+        width: 100%;
+        padding: 10px;
+    }
+    .our-team .title h3{
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .our-team .body-detail{
+        margin-top: 10px;
+    }
+    .our-team .body-detail .detail{
+        background-color: white;
+        width: 25%;
+        border: 1px solid black;
+        border-radius: 5px;
+        margin: 0 auto;
+        
+    }
+    .our-team .body-detail .detail .profile-img img{
+        width: 100%;
+        height: 180px;
+    }
+    .our-team .body-detail .detail .name{
+        text-align: center;
+    }
+    .our-team .body-detail .detail .profession{
+        text-align: center;
+    }
+    
+    .footer{
+        background-color: rgb(217, 215, 219);
+        margin-top: 20px;
+        padding: 5px;
+    }
+    .footer footer{
+        text-align: center;
+    
+    }
+    
+    /************************************
+        archive-website/logo
+    ************************************/
+    
+    .archive{
+        width: 100%;   
+        padding-top: 10px;
+        padding-bottom: 300px;
+    }
+    .archive .archive-title{
+        text-align: center;
+        margin-bottom: 10px;
+        text-decoration: underline;
+    }
+    .archive .archive-container{
+        position: relative;
+        background-color: black;
+        width: 30%;
+        height: 250px;
+        margin: 5px;
+        background-repeat: no-repeat;
+        /** background-attachment: fixed;**/
+         background-size: 100% 100%;
+         border-top-left-radius: 5px;
+         border-top-right-radius: 5px;
+         display: inline-block;
+    }
+    .archive .archive-container .tag{
+        background-color: rgb(214, 212, 212);
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+        padding: 3px 0px;
+        text-align: center;
+    }
+    
+    /*************************************
+                live-chat
+    *************************************/
+    .live-chat .image img{
+        background-repeat: no-repeat;
+        /** background-attachment: fixed;**/
+         background-size: 100% 100%;
+         width: 100%;
+         height: 200px !important;
+    }
+    .live-chat .title h3{
+        text-align: center;
+        margin-top: 10px;
+    }
+    .live-chat .body{
+        text-align: center;
+        padding-bottom: 300px;
+    }
+    .live-chat .body #icon{
+        font-size: 25px;
+        color: green;
+        cursor: pointer;
+    }
+    
+    /**************************************
+                follow-us
+    **************************************/
+    .live-chat .image img{
+        background-repeat: no-repeat;
+        /** background-attachment: fixed;**/
+         background-size: 100% 100%;
+         width: 100%;
+         height: 300px;
+    }
+    .follow-us .title{
+        margin-top: 10px;
+        text-align: center;
+    }
+    .follow-us .notice{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .follow-us .body{
+        margin-bottom: 300px;
+        
+    }
+    .follow-us .body .detail .facebook a i{
+        font-size: 80px;
+        cursor: pointer;
+    
+    }
+    .follow-us .body .detail .instagram a i{
+        font-size: 80px;
+        cursor: pointer;
+    
+    }      
+}
+@media screen and (max-width:499px) and (min-width:300px){
+    .row>#img img{
+        width: 100%;
+        height: 40px;
+        background-repeat: no-repeat;
+       /** background-attachment: fixed;**/
+        background-size: 100% 100%;
+    }
+    .row #title{
+        text-align: center;
+        padding-top: 10px;
+        font-size: 12px;
+        font-family: 'Philosopher', sans-serif;
+    }
+    a#a{
+        font-size: 12px;
+    }
+    div#navbar nav#navbar{
+        float: none;
+    }
+    nav#navbar button{
+        font-size: 7px;
+    }
+    div#btn{
+        display: none;
+    }
+    div#btn2{
+        display: block;
+    }
+    .divider{
+        width: 100%;
+        height: 5px;
+    }
+    nav#nav-dropdown .col a#link{
+        text-decoration: none;
+    }
+    .content-body .header-img{
+        width: 100%;
+        height: 180px;
+        color: rgb(255, 255, 255);
+        font-size: 25px;
+        padding-left: 30px;
+        padding-top: 40px;
+        margin-bottom: 20px;
+        background-repeat: no-repeat;
+       /** background-attachment: fixed;**/
+        background-size: 100% 100%;
+        font-family: 'Dancing Script', cursive;
+        background-color: black;
+    }
+    .content-body>.msg-content{
+        width: 95%;
+        margin: 0 auto;
+        border: 1px solid black;
+        border-radius: 5px;
+    }
+    .content-body>.msg-content .msg-head{
+        position: static;
+    }
+    .content-body>.msg-content>.overall-msg .message{
+        background-color: rgb(212, 211, 211);
+        margin-bottom: 5px;
+        padding-top: 10px;
+    }
+    .content-body>.msg-content>.overall-msg .message .msg-detail{
+        background-color: white;
+        float: right;
+        width: 60%;
+    }
+    .content-body>.msg-content>.msg-head{
+        background-color: black;
+        color: white;
+        padding-left: 10px;
+
+    }
+    .content-body>.msg-content>.overall-msg{
+        height: 600px;
+        overflow-y: scroll;
+    }
+    .content-body>.msg-content>.overall-msg .message>.msg-body> img{
+        width: 40%;
+        height: 150px;
+    }
+    .content-body>.msg-content>.overall-msg .message::after{
+        clear: both;
+        content: '';
+        display: block;
+    }
+    
+    .msg-detail #msg-title h3{
+        text-align: center;
+        padding-left: 5px;
+        margin-bottom: 0px;
+    }
+    .msg-detail #msg-detail{
+        text-align: center;
+        padding-left: 5px;
+    }
+    .msg-detail .admin-profile{
+        background-color: black;
+        width: 10%;
+        height: 40px;
+        border-radius: 50%;
+        margin-left: 5px;
+    }
+    .msg-detail .admin-profile img{
+        width: 100%;
+        height: 40px;
+        border-radius: 50%;
+        background-repeat: no-repeat;
+       /** background-attachment: fixed;**/
+        background-size: 100% 100%;
+    }
+    .msg-detail .admin{
+        position: relative;
+    }
+    .msg-detail .admin .posted-by{
+        position: absolute;
+        bottom: 0px;
+        left: 40px;
+    }
+    
+    /**************************
+    **************************/
+    .content-body>.msg-content>.overall-msg .message2{
+        background-color: rgb(212, 211, 211);
+        margin-bottom: 5px;
+        padding-top: 10px;
+    }
+    .content-body>.msg-content>.overall-msg .message2 .msg-detail2{
+        background-color: white;
+        width: 60%;
+    }
+    .content-body>.msg-content>.overall-msg .message2>.msg-body2 img{
+        float: right;
+        width: 40%;
+        height: 150px;
+    }
+    .content-body>.msg-content>.overall-msg .message2::after{
+        clear: both;
+        content: '';
+        display: block;
+    }
+    .msg-detail2 #msg-title h3{
+        text-align: center;
+        padding-left: 5px;
+        margin-bottom: 0px;
+    }
+    .msg-detail2 #msg-detail{
+        text-align: center;
+        padding-left: 5px;
+    }
+    .msg-detail2 .admin-profile2{
+        background-color: black;
+        width: 10%;
+        height: 40px;
+        border-radius: 50%;
+        margin-left: 5px;
+    }
+    .msg-detail2 .admin-profile2 img{
+        width: 100%;
+        height: 40px;
+        border-radius: 50%;
+        background-repeat: no-repeat;
+       /** background-attachment: fixed;**/
+        background-size: 100% 100%;
+    }
+    .msg-detail2 .admin2{
+        position: relative;
+    }
+    .msg-detail2 .admin2 .posted-by2{
+        position: absolute;
+        bottom: 0px;
+        left: 40px;
+    }
+    
+    /***********************
+            about us
+    ***********************/
+    .about-us{
+        background-color: rgb(247, 247, 247);
+        margin-top: 20px;
+        padding: 10px;
+    }
+    .about-us .span1{
+      font-size: 20px;
+    }
+    .about-us .message{
+        font-size: 15px;
+        width: 70%;
+    }
+    .about-us .span2{
+        font-size: 20px;
+        text-align: center;
+    
+    }
+    .about-us .vision{
+        font-size: 15px;
+        text-align: center;
+        width: 70%;
+        margin: 0 auto;
+    
+    }
+    .about-us .span3{
+        font-size: 20px;
+    
+    }
+    .about-us .services{
+        font-size: 15px;
+        display: inline-block;
+    }
+    .about-us .services li{
+        margin-left: 3px;
+    }
+    #title-tag{
+        font-family: 'Niconne', cursive;
+        font-size: 20px;
+    }
+    #body-tag{
+        font-family: 'Niconne', cursive;
+        font-size: 15px;
+    }
+    /******************
+        our team
+    *****************/
+    .our-team{
+        margin-top: 10px;
+        width: 100%;
+        padding: 10px;
+    }
+    .our-team .title h3{
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .our-team .body-detail{
+        margin-top: 10px;
+    }
+    .our-team .body-detail .detail{
+        background-color: white;
+        width: 40%;
+        border: 1px solid black;
+        border-radius: 5px;
+        margin: 0 auto;
+        
+    }
+    .our-team .body-detail .detail .profile-img img{
+        width: 100%;
+        height: 150px;
+    }
+    .our-team .body-detail .detail .name{
+        text-align: center;
+    }
+    .our-team .body-detail .detail .profession{
+        text-align: center;
+    }
+    
+    .footer{
+        background-color: rgb(217, 215, 219);
+        margin-top: 20px;
+        padding: 5px;
+    }
+    .footer footer{
+        text-align: center;
+    
+    }
+    
+    /************************************
+        archive-website/logo
+    ************************************/
+    
+    .archive{
+        width: 100%;   
+        padding-top: 10px;
+        padding-bottom: 300px;
+    }
+    .archive .archive-title{
+        text-align: center;
+        margin-bottom: 10px;
+        text-decoration: underline;
+    }
+    .archive .archive-container{
+        position: relative;
+        background-color: black;
+        width: 45%;
+        height: 230px;
+        margin: 5px;
+        background-repeat: no-repeat;
+        /** background-attachment: fixed;**/
+         background-size: 100% 100%;
+         border-top-left-radius: 5px;
+         border-top-right-radius: 5px;
+         display: inline-block;
+    }
+    .archive .archive-container .tag{
+        background-color: rgb(214, 212, 212);
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+        padding: 3px 0px;
+        text-align: center;
+    }
+    
+    /*************************************
+                live-chat
+    *************************************/
+    .live-chat .image img{
+        background-repeat: no-repeat;
+        /** background-attachment: fixed;**/
+         background-size: 100% 100%;
+         width: 100%;
+         height: 130px !important;
+    }
+    .live-chat .title h3{
+        text-align: center;
+        margin-top: 10px;
+    }
+    .live-chat .body{
+        text-align: center;
+        padding-bottom: 300px;
+    }
+    .live-chat .body #icon{
+        font-size: 25px;
+        color: green;
+        cursor: pointer;
+    }
+    
+    /**************************************
+                follow-us
+    **************************************/
+    .live-chat .image img{
+        background-repeat: no-repeat;
+        /** background-attachment: fixed;**/
+         background-size: 100% 100%;
+         width: 100%;
+         height: 300px;
+    }
+    .follow-us .title{
+        margin-top: 10px;
+        text-align: center;
+    }
+    .follow-us .notice{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .follow-us .body{
+        margin-bottom: 300px;
+        
+    }
+    .follow-us .body .detail .facebook a i{
+        font-size: 60px;
+        cursor: pointer;
+    
+    }
+    .follow-us .body .detail .instagram a i{
+        font-size: 60px;
+        cursor: pointer;
+    
+    }  
+}
+@media screen and (max-width:299px) and (min-width:100px){
+    .row>#img img{
+        width: 100%;
+        height: 40px;
+        background-repeat: no-repeat;
+       /** background-attachment: fixed;**/
+        background-size: 100% 100%;
+    }
+    .row #title{
+        text-align: center;
+        padding-top: 5px;
+        font-size: 8px;
+        font-family: 'Philosopher', sans-serif;
+    }
+    a#a{
+        font-size: 9px;
+    }
+    div#navbar nav#navbar{
+        float: none;
+    }
+    nav#navbar button{
+        font-size: 7px;
+    }
+    div#btn{
+        display: none;
+    }
+    div#btn2{
+        display: block;
+    }
+    .divider{
+        width: 100%;
+        height: 2px;
+    }
+    nav#nav-dropdown .col a#link{
+        text-decoration: none;
+    }
+    .content-body .header-img{
+        width: 100%;
+        height: 100px;
+        color: rgb(255, 255, 255);
+        font-size: 18px;
+        padding-left: 10px;
+        padding-top: 20px;
+        margin-bottom: 10px;
+        background-repeat: no-repeat;
+       /** background-attachment: fixed;**/
+        background-size: 100% 100%;
+        font-family: 'Dancing Script', cursive;
+        background-color: black;
+    }
+    .content-body>.msg-content{
+        width: 100%;
+        border: 1px solid black;
+        border-radius: 5px;
+    }
+    .content-body>.msg-content .msg-head{
+        position: static;
+    }
+    .content-body>.msg-content>.overall-msg .message{
+        background-color: rgb(212, 211, 211);
+        margin-bottom: 5px;
+        padding-top: 10px;
+    }
+    .content-body>.msg-content>.overall-msg .message .msg-detail{
+        background-color: white;
+        float: none;
+        width: 100%;
+    }
+    .content-body>.msg-content>.msg-head{
+        background-color: black;
+        color: white;
+        padding-left: 10px;
+
+    }
+    .content-body>.msg-content>.overall-msg{
+        height: 500px;
+        overflow-y: scroll;
+    }
+    .content-body>.msg-content>.overall-msg .message>.msg-body> img{
+        display: none;
+    }
+    .content-body>.msg-content>.overall-msg .message::after{
+        clear: both;
+        content: '';
+        display: block;
+    }
+    
+    .msg-detail #msg-title h3{
+        text-align: center;
+        padding-left: 5px;
+        margin-bottom: 0px;
+    }
+    .msg-detail #msg-detail{
+        text-align: center;
+        padding-left: 5px;
+    }
+    .msg-detail .admin-profile{
+        background-color: black;
+        width: 12%;
+        height: 40px;
+        border-radius: 50%;
+        margin-left: 3px;
+    }
+    .msg-detail .admin-profile img{
+        width: 100%;
+        height: 40px;
+        border-radius: 50%;
+        background-repeat: no-repeat;
+       /** background-attachment: fixed;**/
+        background-size: 100% 100%;
+    }
+    .msg-detail .admin{
+        position: relative;
+    }
+    .msg-detail .admin .posted-by{
+        position: absolute;
+        bottom: 0px;
+        left: 40px;
+    }
+    
+    /**************************
+    **************************/
+    .content-body>.msg-content>.overall-msg .message2{
+        background-color: rgb(212, 211, 211);
+        margin-bottom: 5px;
+        padding-top: 10px;
+    }
+    .content-body>.msg-content>.overall-msg .message2 .msg-detail2{
+        background-color: white;
+        width: 100%;
+    }
+    .content-body>.msg-content>.overall-msg .message2>.msg-body2 img{
+        float: none;
+        display: none;
+    }
+    .content-body>.msg-content>.overall-msg .message2::after{
+        clear: both;
+        content: '';
+        display: block;
+    }
+    .msg-detail2 #msg-title h3{
+        text-align: center;
+        padding-left: 5px;
+        margin-bottom: 0px;
+    }
+    .msg-detail2 #msg-detail{
+        text-align: center;
+        padding-left: 5px;
+    }
+    .msg-detail2 .admin-profile2{
+        background-color: black;
+        width: 12%;
+        height: 40px;
+        border-radius: 50%;
+        margin-left: 3px;
+    }
+    .msg-detail2 .admin-profile2 img{
+        width: 100%;
+        height: 40px;
+        border-radius: 50%;
+        background-repeat: no-repeat;
+       /** background-attachment: fixed;**/
+        background-size: 100% 100%;
+    }
+    .msg-detail2 .admin2{
+        position: relative;
+    }
+    .msg-detail2 .admin2 .posted-by2{
+        position: absolute;
+        bottom: 0px;
+        left: 40px;
+    }
+    
+    /***********************
+            about us
+    ***********************/
+    .about-us{
+        background-color: rgb(247, 247, 247);
+        margin-top: 20px;
+        padding: 10px;
+    }
+    .about-us .span1{
+      font-size: 20px;
+    }
+    .about-us .message{
+        font-size: 15px;
+        width: 90%;
+    }
+    .about-us .span2{
+        font-size: 20px;
+        text-align: center;
+    
+    }
+    .about-us .vision{
+        font-size: 15px;
+        text-align: center;
+        width: 90%;
+        margin: 0 auto;
+    
+    }
+    .about-us .span3{
+        font-size: 20px;
+    
+    }
+    .about-us .services{
+        font-size: 15px;
+        display: inline-block;
+    }
+    .about-us .services li{
+        margin-left: 3px;
+    }
+    #title-tag{
+        font-family: 'Niconne', cursive;
+        font-size: 22px;
+    }
+    #body-tag{
+        font-family: 'Niconne', cursive;
+        font-size: 17px;
+    }
+    /******************
+        our team
+    *****************/
+    .our-team{
+        margin-top: 5px;
+        width: 100%;
+        padding: 10px;
+    }
+    .our-team .title h3{
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .our-team .body-detail{
+        margin-top: 10px;
+    }
+    .our-team .body-detail .detail{
+        background-color: white;
+        width: 60%;
+        border: 1px solid black;
+        border-radius: 5px;
+        margin: 0 auto;
+        
+    }
+    .our-team .body-detail .detail .profile-img img{
+        width: 100%;
+        height: 130px;
+    }
+    .our-team .body-detail .detail .name{
+        text-align: center;
+    }
+    .our-team .body-detail .detail .profession{
+        text-align: center;
+    }
+    
+    .footer{
+        background-color: rgb(217, 215, 219);
+        margin-top: 20px;
+        padding: 5px;
+    }
+    .footer footer{
+        text-align: center;
+    
+    }
+    
+    /************************************
+        archive-website/logo
+    ************************************/
+    
+    .archive{
+        width: 100%;   
+        padding-top: 10px;
+        padding-bottom: 300px;
+    }
+    .archive .archive-title{
+        text-align: center;
+        margin-bottom: 10px;
+        text-decoration: underline;
+    }
+    .archive .archive-container{
+        position: relative;
+        background-color: black;
+        width: 100%;
+        height: 250px;
+        margin: 5px;
+        background-repeat: no-repeat;
+        /** background-attachment: fixed;**/
+         background-size: 100% 100%;
+         border-top-left-radius: 5px;
+         border-top-right-radius: 5px;
+         display: inline-block;
+    }
+    .archive .archive-container .tag{
+        background-color: rgb(214, 212, 212);
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+        padding: 3px 0px;
+        text-align: center;
+    }
+    
+    /*************************************
+                live-chat
+    *************************************/
+    .live-chat .image img{
+        background-repeat: no-repeat;
+        /** background-attachment: fixed;**/
+         background-size: 100% 100%;
+         width: 100%;
+         height: 100px !important;
+    }
+    .live-chat .title h3{
+        text-align: center;
+        margin-top: 5px;
+    }
+    .live-chat .body{
+        text-align: center;
+        padding-bottom: 300px;
+    }
+    .live-chat .body #icon{
+        font-size: 25px;
+        color: green;
+        cursor: pointer;
+    }
+    
+    /**************************************
+                follow-us
+    **************************************/
+    .live-chat .image img{
+        background-repeat: no-repeat;
+        /** background-attachment: fixed;**/
+         background-size: 100% 100%;
+         width: 100%;
+         height: 300px;
+    }
+    .follow-us .title{
+        margin-top: 10px;
+        text-align: center;
+    }
+    .follow-us .notice{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .follow-us .body{
+        margin-bottom: 300px;
+        
+    }
+    .follow-us .body .detail .facebook a i{
+        font-size: 50px;
+        cursor: pointer;
+    
+    }
+    .follow-us .body .detail .instagram a i{
+        font-size: 50px;
+        cursor: pointer;
+    
+    } 
+}
+@media screen and (max-width:199px) and (min-width:0px){
+    #unavailable{
+        display: block;
+    }
+}

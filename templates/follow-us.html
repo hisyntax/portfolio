@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% load static %}
+<head>
+        <title>Follow-us</title>
+</head>
+{% block content %}
+<!-----------------mai content------------------------->
+        <style>
+            
+        </style>
+        <div class="follow-us" >
+           <div class="title"><h3 id="title-tag">Follow Us</h3></div>
+           <div class="notice" id="body-tag">{{ content.info.title }}</div>
+           <div class="body">
+                <div class="detail">
+                    <div class="facebook">
+                          <p style="text-align: center;"><a href="{{ content.facebook.link }}" target="_blank"><i style="color: blue;" class="fa fa-facebook-square"></i></a></p>
+                    </div>
+                    <div class="instagram">
+                            <p style="text-align: center;"><a href="{{ content.instagram.link }}" target="_blank"><i style="color: burlywood;" class="fa fa-instagram"></i></a></p>
+                    </div>
+                     
+                </div>
+            </div>
+           </div>
+        </div>
+{% endblock content %}

@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% load static %}
+<head>
+    <title>Live-chat</title>
+</head>
+{% block content %}
+<!-----------------mai content------------------------->
+        <div class="live-chat" >
+            <div class="image">
+                <img src="{% static 'images/img4.jpg' %}" alt="">
+            </div>
+            <div class="title" id="title-tag"><h3>Live-chat</h3></div>
+            <div class="body" id="body-tag">
+                Connect with us and get fast replies as soon as possible via..<a href="{{ content.link.link }}" target="_blank"><i id="icon" class="fa fa-whatsapp"></i></a>Whatsapp
+                <p>OR</p>
+                <p> <i id="icon" class="fa fa-phone"></i> {{ content.phone.phone_number }}</p>
+            </div>
+        </div>
+{% endblock content %}

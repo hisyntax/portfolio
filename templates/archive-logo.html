@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% load static %}
+<head>
+    <title>Archive-logo</title>
+</head>
+{% block content %}
+
+<!-----------------mai content------------------------->
+        <div class="archive" >
+            <div class="archive-title" id="title-tag">Graphics Archive</div>
+            {% for images in content.image %}
+            <div class="archive-container" style="background-image: url('{{ images.thumbnail.url }}');">
+                <div class="tag" id="body-tag"><a href="{{ images.link }}" target="_blank">View Design..</a></div>
+            </div>
+            {% endfor %}
+            
+        </div>
+{% endblock content %}
