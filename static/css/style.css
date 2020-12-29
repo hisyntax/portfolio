@@ -372,7 +372,7 @@ nav#nav-dropdown .col a#link{
 @media screen and (max-width:1000px) and (min-width:500px){
     .row>#img img{
         width: 100%;
-        height: 70px;
+        height: 100px;
         background-repeat: no-repeat;
        /** background-attachment: fixed;**/
         background-size: 100% 100%;
@@ -380,20 +380,20 @@ nav#nav-dropdown .col a#link{
     .row #title{
         text-align: center;
         padding-top: 20px;
-        font-size: 20px;
+        font-size: 25px;
         font-family: 'Philosopher', sans-serif;
     }
     .row #icon{
         font-size: 25px;
     }
     a#a{
-        font-size: 18px;
+        font-size: 23px;
     }
     div#navbar nav#navbar{
         float: none;
     }
     nav#navbar button{
-        font-size: 22px;
+        font-size: 30px;
     }
     div#btn{
         display: none;
@@ -410,9 +410,9 @@ nav#nav-dropdown .col a#link{
     }
     .content-body .header-img{
         width: 100%;
-        height: 250px;
+        height: 450px;
         color: rgb(255, 255, 255);
-        font-size: 35px;
+        font-size: 40px;
         padding-left: 50px;
         padding-top: 50px;
         margin-bottom: 30px;
@@ -423,7 +423,7 @@ nav#nav-dropdown .col a#link{
         background-color: black;
     }
     .content-body>.msg-content{
-        width: 90%;
+        width: 98%;
         margin: 0 auto;
         border: 1px solid black;
         border-radius: 5px;
@@ -559,31 +559,20 @@ nav#nav-dropdown .col a#link{
         margin-top: 20px;
         padding: 10px;
     }
-    .about-us .span1{
-      font-size: 20px;
-    }
     .about-us .message{
-        font-size: 15px;
         width: 60%;
     }
     .about-us .span2{
-        font-size: 20px;
         text-align: center;
     
     }
     .about-us .vision{
-        font-size: 15px;
         text-align: center;
         width: 60%;
         margin: 0 auto;
     
     }
-    .about-us .span3{
-        font-size: 20px;
-    
-    }
     .about-us .services{
-        font-size: 15px;
         display: inline-block;
     }
     .about-us .services li{
@@ -591,11 +580,11 @@ nav#nav-dropdown .col a#link{
     }
     #title-tag{
         font-family: 'Niconne', cursive;
-        font-size: 25px;
+        font-size: 30px;
     }
     #body-tag{
         font-family: 'Niconne', cursive;
-        font-size: 20px;
+        font-size: 25px;
     }
     /******************
         our team
@@ -622,7 +611,7 @@ nav#nav-dropdown .col a#link{
     }
     .our-team .body-detail .detail .profile-img img{
         width: 100%;
-        height: 250px;
+        height: 450px;
     }
     .our-team .body-detail .detail .name{
         text-align: center;
@@ -659,7 +648,7 @@ nav#nav-dropdown .col a#link{
         position: relative;
         background-color: black;
         width: 30%;
-        height: 250px;
+        height: 450px;
         margin: 5px;
         background-repeat: no-repeat;
         /** background-attachment: fixed;**/
@@ -685,7 +674,7 @@ nav#nav-dropdown .col a#link{
         /** background-attachment: fixed;**/
          background-size: 100% 100%;
          width: 100%;
-         height: 200px !important;
+         height: 400px !important;
     }
     .live-chat .title h3{
         text-align: center;
@@ -704,13 +693,6 @@ nav#nav-dropdown .col a#link{
     /**************************************
                 follow-us
     **************************************/
-    .live-chat .image img{
-        background-repeat: no-repeat;
-        /** background-attachment: fixed;**/
-         background-size: 100% 100%;
-         width: 100%;
-         height: 300px;
-    }
     .follow-us .title{
         margin-top: 10px;
         text-align: center;
@@ -737,7 +719,7 @@ nav#nav-dropdown .col a#link{
 @media screen and (max-width:499px) and (min-width:300px){
     .row>#img img{
         width: 100%;
-        height: 70px;
+        height: 100px;
         background-repeat: no-repeat;
        /** background-attachment: fixed;**/
         background-size: 100% 100%;
@@ -745,17 +727,17 @@ nav#nav-dropdown .col a#link{
     .row #title{
         text-align: center;
         padding-top: 10px;
-        font-size: 18px;
+        font-size: 25px;
         font-family: 'Philosopher', sans-serif;
     }
     a#a{
-        font-size: 18px;
+        font-size: 25px;
     }
     div#navbar nav#navbar{
         float: none;
     }
     nav#navbar button{
-        font-size: 18px;
+        font-size: 30px;
     }
     div#btn{
         display: none;
@@ -772,7 +754,7 @@ nav#nav-dropdown .col a#link{
     }
     .content-body .header-img{
         width: 100%;
-        height: 180px;
+        height: 450px;
         color: rgb(255, 255, 255);
         font-size: 25px;
         padding-left: 30px;
@@ -785,7 +767,7 @@ nav#nav-dropdown .col a#link{
         background-color: black;
     }
     .content-body>.msg-content{
-        width: 95%;
+        width: 99%;
         margin: 0 auto;
         border: 1px solid black;
         border-radius: 5px;
@@ -918,31 +900,19 @@ nav#nav-dropdown .col a#link{
         margin-top: 20px;
         padding: 10px;
     }
-    .about-us .span1{
-      font-size: 20px;
-    }
     .about-us .message{
-        font-size: 15px;
         width: 70%;
     }
     .about-us .span2{
-        font-size: 20px;
         text-align: center;
     
     }
     .about-us .vision{
-        font-size: 15px;
         text-align: center;
         width: 70%;
         margin: 0 auto;
-    
-    }
-    .about-us .span3{
-        font-size: 20px;
-    
     }
     .about-us .services{
-        font-size: 15px;
         display: inline-block;
     }
     .about-us .services li{
@@ -950,11 +920,11 @@ nav#nav-dropdown .col a#link{
     }
     #title-tag{
         font-family: 'Niconne', cursive;
-        font-size: 22px;
+        font-size: 30px;
     }
     #body-tag{
         font-family: 'Niconne', cursive;
-        font-size: 17px;
+        font-size: 25px;
     }
     /******************
         our team
@@ -981,7 +951,7 @@ nav#nav-dropdown .col a#link{
     }
     .our-team .body-detail .detail .profile-img img{
         width: 100%;
-        height: 220px;
+        height: 400px;
     }
     .our-team .body-detail .detail .name{
         text-align: center;
@@ -1018,7 +988,7 @@ nav#nav-dropdown .col a#link{
         position: relative;
         background-color: black;
         width: 45%;
-        height: 230px;
+        height: 400px;
         margin: 5px;
         background-repeat: no-repeat;
         /** background-attachment: fixed;**/
@@ -1044,7 +1014,7 @@ nav#nav-dropdown .col a#link{
         /** background-attachment: fixed;**/
          background-size: 100% 100%;
          width: 100%;
-         height: 130px !important;
+         height: 400px !important;
     }
     .live-chat .title h3{
         text-align: center;
@@ -1096,7 +1066,7 @@ nav#nav-dropdown .col a#link{
 @media screen and (max-width:299px) and (min-width:100px){
     .row>#img img{
         width: 100%;
-        height: 60px;
+        height: 100px;
         background-repeat: no-repeat;
        /** background-attachment: fixed;**/
         background-size: 100% 100%;
@@ -1104,17 +1074,17 @@ nav#nav-dropdown .col a#link{
     .row #title{
         text-align: center;
         padding-top: 5px;
-        font-size: 15px;
+        font-size: 22px;
         font-family: 'Philosopher', sans-serif;
     }
     a#a{
-        font-size: 13px;
+        font-size: 20px;
     }
     div#navbar nav#navbar{
         float: none;
     }
     nav#navbar button{
-        font-size: 15px;
+        font-size: 25px;
     }
     div#btn{
         display: none;
@@ -1131,7 +1101,7 @@ nav#nav-dropdown .col a#link{
     }
     .content-body .header-img{
         width: 100%;
-        height: 100px;
+        height: 300px;
         color: rgb(255, 255, 255);
         font-size: 18px;
         padding-left: 10px;
@@ -1261,31 +1231,17 @@ nav#nav-dropdown .col a#link{
         margin-top: 20px;
         padding: 10px;
     }
-    .about-us .span1{
-      font-size: 20px;
-    }
     .about-us .message{
-        font-size: 15px;
         width: 90%;
     }
     .about-us .span2{
-        font-size: 20px;
-        text-align: center;
-    
     }
     .about-us .vision{
-        font-size: 15px;
         text-align: center;
         width: 90%;
         margin: 0 auto;
-    
-    }
-    .about-us .span3{
-        font-size: 20px;
-    
     }
     .about-us .services{
-        font-size: 15px;
         display: inline-block;
     }
     .about-us .services li{
@@ -1293,11 +1249,11 @@ nav#nav-dropdown .col a#link{
     }
     #title-tag{
         font-family: 'Niconne', cursive;
-        font-size: 22px;
+        font-size: 30px;
     }
     #body-tag{
         font-family: 'Niconne', cursive;
-        font-size: 17px;
+        font-size: 25px;
     }
     /******************
         our team
@@ -1324,7 +1280,7 @@ nav#nav-dropdown .col a#link{
     }
     .our-team .body-detail .detail .profile-img img{
         width: 100%;
-        height: 150px;
+        height: 400px;
     }
     .our-team .body-detail .detail .name{
         text-align: center;
@@ -1361,7 +1317,7 @@ nav#nav-dropdown .col a#link{
         position: relative;
         background-color: black;
         width: 100%;
-        height: 250px;
+        height: 400px;
         margin: 5px;
         background-repeat: no-repeat;
         /** background-attachment: fixed;**/
@@ -1387,7 +1343,7 @@ nav#nav-dropdown .col a#link{
         /** background-attachment: fixed;**/
          background-size: 100% 100%;
          width: 100%;
-         height: 100px !important;
+         height: 400px !important;
     }
     .live-chat .title h3{
         text-align: center;
