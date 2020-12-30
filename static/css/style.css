@@ -379,11 +379,8 @@ nav#nav-dropdown .col a#link{
     .row #title{
         text-align: center;
         padding-top: 20px;
-        font-size: 40px;
+        font-size: 50px;
         font-family: 'Philosopher', sans-serif;
-    }
-    .row #icon{
-        font-size: 25px;
     }
     a#a{
         font-size: 35px;
@@ -392,7 +389,7 @@ nav#nav-dropdown .col a#link{
         float: none;
     }
     nav#navbar button{
-        font-size: 50px;
+        font-size: 60px;
     }
     div#btn{
         display: none;
@@ -730,9 +727,6 @@ nav#nav-dropdown .col a#link{
         font-size: 45px;
         font-family: 'Philosopher', sans-serif;
     }
-    .row #icon{
-        font-size: 25px;
-    }
     a#a{
         font-size: 45px;
     }
@@ -740,7 +734,7 @@ nav#nav-dropdown .col a#link{
         float: none;
     }
     nav#navbar button{
-        font-size: 50px;
+        font-size: 60px;
     }
     div#btn{
         display: none;
@@ -1074,7 +1068,7 @@ nav#nav-dropdown .col a#link{
     .row #title{
         text-align: center;
         padding-top: 10px;
-        font-size: 45px;
+        font-size: 50px;
         font-family: 'Philosopher', sans-serif;
     }
     a#a{
@@ -1421,7 +1415,7 @@ nav#nav-dropdown .col a#link{
     .row #title{
         text-align: center;
         padding-top: 5px;
-        font-size: 40px;
+        font-size: 50px;
         font-family: 'Philosopher', sans-serif;
     }
     a#a{
