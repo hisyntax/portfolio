@@ -8,7 +8,7 @@
     <!-----------------mai content------------------------->
         <div class="content-body" >
           <!--------------background image--------------------->
-          <div class="header-img mr-0 ml-0" style="background-image: url('{{ content.backgroundimg.thumbnail.url }}');">Programming at it's Best....</div>
+          <div class="header-img mr-0 ml-0" style="background-image: url('{{ content.backgroundimg.thumbnail.url }}');">Programming at it's Best...</div>
           <div class="msg-content">
             <div class="msg-head" id="title-tag">What's going on!</div>
             <div class="overall-msg">
@@ -17,7 +17,7 @@
               <div class="message">
                 <div class="msg-detail">
                   <div id="msg-title"><h3 id="title-tag">{{ message.title }}</h3></div>
-                  <div id="msg-detail"><p id="body-tag">{{ message.overview }}</p></div>
+                  <div id="msg-detail" style="margin-bottom: 25px;"><p id="body-tag">{{ message.overview }}</p></div>
                   <div class="admin">
                     <div class="admin-profile">
                       <img src="{{ message.author.thumbnail.url }}" alt="Admin-profile">
@@ -38,7 +38,7 @@
                 </div>
                 <div  class="msg-detail2">
                   <div id="msg-title"><h3 id="title-tag">{{ messages.title }}</h3></div>
-                  <div id="msg-detail"><p id="body-tag">{{ messages.overview }}</p></div>
+                  <div id="msg-detail" style="margin-bottom: 25px;"><p id="body-tag">{{ messages.overview }}</p></div>
                   <div class="admin2">
                     <div class="admin-profile2">
                       <img src="{{ messages.author.thumbnail.url }}" alt="Admin-profile">
