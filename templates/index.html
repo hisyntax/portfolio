@@ -50,6 +50,11 @@
               {% endfor %}
             </div>
           </div>
+          {% for advert in content.first_advert %}
+          <div style="margin-top: 10px; margin-bottom:10px" class="first_advert">
+            <img id="advert_img" src="{{ advert.thumbnail.url }}" alt="">
+          </div>
+          {% endfor %}
           <!--------------------About us---------------------->
           <div class="about-us"  >
             <h3 id="title-tag" class="span1">About Us</h3>
@@ -69,6 +74,11 @@
               {% endfor %}
             </div> 
           </div>
+          {% for advert in content.second_advert %}
+          <div style="margin-top: 10px; margin-bottom:10px" class="second_advert">
+            <img id="advert_img" src="{{ advert.thumbnail.url }}" alt="">
+          </div>
+          {% endfor %}
           <!---------------------our team------------------------>
           <div class="our-team">
             <div class="title"><h3 id="title-tag">Our Team</h3></div>

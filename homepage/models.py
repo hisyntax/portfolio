@@ -68,3 +68,18 @@ class Team(models.Model):
 
     def __str__(self):
         return self.name
+
+class First_advert(models.Model):
+    title = models.CharField(max_length=100)
+    thumbnail = models.ImageField(upload_to='pics')
+
+    def __str__(self):
+        return self.title
+
+
+class Second_advert(models.Model):
+    title = models.CharField(max_length=100)
+    thumbnail = models.ImageField(upload_to='pics')
+
+    def __str__(self):
+        return self.title

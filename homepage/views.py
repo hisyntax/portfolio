@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from .models import About, Mission, Service, Team, Message, Messages, Backgroundimg, Logo
+from .models import About, Mission, Service, Team, Message, Messages, Backgroundimg, Logo, First_advert, Second_advert
 # Create your views here.
 def index(request):
     about = About.objects.first()
@@ -10,6 +10,8 @@ def index(request):
     messages = Messages.objects.all()
     backgroundimg = Backgroundimg.objects.first()
     logo = Logo.objects.first()
+    first_advert = First_advert.objects.all()
+    second_advert = Second_advert.objects.all()
     content = {
         'about': about,
         'mission': mission,
@@ -18,6 +20,8 @@ def index(request):
         'message': message,
         'messages': messages,
         'backgroundimg': backgroundimg,
-        'logo': logo
+        'logo': logo,
+        'first_advert': first_advert,
+        'second_advert': second_advert,
     }
     return render (request,'index.html', {'content':content})
